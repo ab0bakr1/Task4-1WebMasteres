@@ -1,0 +1,74 @@
+.music{
+    background-color: black;
+    color: white;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+}
+.music h6{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #00FF66;
+}
+.music h3{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.countdownTow{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+.countdownTow div{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 5px 10px;
+    width: 60px;
+    height: 60px;
+}
+.countdownTow h6{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.music button{
+    margin-top: 40px;
+    background-color: #00FF66;
+    outline: #00FF66;
+    border: #00FF66;
+    padding: 10px 30px;
+    border-radius: 3px!important;
+}
+.music button:hover{
+    background-color: #1a4f2f;
+    outline: #00FF66;
+    border: #00FF66;
+}
+.music-img{
+    position: relative;
+}
+.music img{
+    position: relative;
+    z-index: 6;
+}
+.music-overlay{
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgb(241, 241, 241), transparent);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 30%;
+    filter: blur(50px);
+}

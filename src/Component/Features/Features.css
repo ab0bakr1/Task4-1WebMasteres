@@ -1,0 +1,7 @@
+.features svg{
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    outline: 10px solid rgb(161, 161, 161);
+    margin: 30px 0;
+}

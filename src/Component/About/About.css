@@ -1,0 +1,43 @@
+.About h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.About h5 span{
+    color: #0000004e;
+    font-weight: 400;
+}
+.About img{
+    width: 100px;
+    height: 400px;
+}
+.About .card{
+    width: 200px;
+    text-align: center;
+}
+.About .card svg{
+    border: 6px solid rgb(179, 179, 179);
+    border-radius: 50%;
+    margin: 20px auto!important;
+}
+.About .card svg,
+.About .card svg path{
+    background-color: black;
+    stroke: white;
+    padding: 5px;
+}
+.About .card:hover{
+    background-color: #ff5151;
+    color: white;
+}
+.About .card:hover svg,
+.About .card:hover svg path{
+    background-color: white;
+    stroke: black;
+}
+.team img{
+    background-color: #00000022;
+}
+.team h6{
+    font-size: 1.4rem;
+    font-weight: bold;
+}

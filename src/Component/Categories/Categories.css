@@ -1,0 +1,112 @@
+/* Today.css */
+.Categories {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .Categories-top h4 {
+    color: #ff5151;
+    font-weight: bold;
+  }
+  
+  .Categories-top h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .mrb3{
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: #ff5151;
+  }
+  .countdown {
+    font-size: 1.2rem;
+    color: #333;
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+  }
+  .countdown h6{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+  }
+  .Categories-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .Categories-card {
+    position: relative;
+    border: none !important;
+    outline: 1px solid rgb(78, 78, 78);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .Categories-card:hover {
+    background-color: #ff5151;
+    transform: translateY(-5px);
+  }
+  .Categories-card:hover path,
+  .Categories-card:hover line,
+  .Categories-card:hover rect,
+  .Categories-card:hover .Categories-title {
+    stroke: white;
+    color: white;
+  }
+  .Categories-body{
+    padding: 0 !important;
+    text-align: center;
+  }
+  .Categories-title {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  .swiper-button-prev, .swiper-button-next {
+    position: absolute !important;
+    top: 20px !important;
+    width: calc(var(--swiper-navigation-size) / 15 * 27) !important;
+    height: var(--swiper-navigation-size) !important;
+    z-index: 1000 !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: black !important;
+    
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 90% !important;
+    right: auto !important;
+    
+  }
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons !important;
+    font-size: 20px !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    font-variant: initial !important;
+    line-height: 1 !important;
+    background-color: #787878;
+    padding: 5px 8px;
+    border-radius: 30px;
+  }
+@media (max-width: 1200px) {
+    .swiper-button-prev, .swiper-button-next{
+        display: none !important;
+    }
+}

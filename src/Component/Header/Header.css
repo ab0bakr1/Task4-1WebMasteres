@@ -1,0 +1,114 @@
+.TOP{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 40px;
+    color: white;
+}
+.TOP a{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.TOP h5{
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav a{
+    position: relative;
+}
+.navbar-nav a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    background-color: rgb(140, 140, 140);
+}
+.navbar-nav a:hover:before{
+    width: 100%;
+}
+.search{
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.search input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.search input::placeholder{
+    font-size: 14px;
+}
+.icon .cart,
+.icon .user,
+.icon .wishlist{
+    padding: 2px 6px;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    position: relative;
+}
+.icon .cart:hover,
+.icon .user:hover,
+.icon .wishlist:hover{
+    background-color: rgb(255, 84, 84);
+}
+.icon .cart svg,
+.icon .user svg,
+.icon .wishlist svg{
+    color: black;
+}
+.icon .cart svg:hover,
+.icon .user svg:hover,
+.icon .wishlist svg:hover{
+    color: #fff;
+}
+.icon .wishlist span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 84, 84);
+    color: #fff;
+    width: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 500;
+}
+.icon .user:hover .user-menu{
+    display: flex;
+}
+.user-menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 100;
+    background:rgba(0, 0, 0, 0);
+    backdrop-filter: blur(50px);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1212;
+}
+.user-menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.user-menu svg{
+    width: 20px;
+    height: 20px;
+    margin:0 10px;
+}

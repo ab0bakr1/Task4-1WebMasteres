@@ -1,0 +1,36 @@
+.cart h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cart h5 span{
+    color: #0000004e;
+    font-weight: 400;
+}
+.product-table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+.cart img{
+    width: 30px;
+    height: 30px;
+}
+.cart button{
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 5px 30px;
+}
+.cart form{
+    margin: 0;
+}
+.cart form button,
+.cart form input{
+    height: 30px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.cart-total{
+    padding: 20px 30px;
+    border: 1px solid black;
+}

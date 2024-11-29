@@ -1,0 +1,41 @@
+.Billing h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.Billing h5 span{
+    color: #0000004e;
+    font-weight: 400;
+}
+.Billing h4{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.Billing form label{
+    font-weight: bold;
+    color: #0000004e;
+}
+.Billing form input{
+    padding: 5px 10px;
+    border: none;
+    background-color: #00000014;
+    border-radius: 0;
+}
+.Billing img{
+    width: 30px;
+    height: 30px;
+}
+.Billing table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.Billing-total{
+    margin-top: 10px;
+}
+.Billing-total p{
+    margin: 0;
+}
+.Billing span img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

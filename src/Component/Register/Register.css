@@ -1,0 +1,14 @@
+.Register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Register form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Register form input{
+    border: none;
+    border-bottom: solid 1px rgb(151, 151, 151);
+}

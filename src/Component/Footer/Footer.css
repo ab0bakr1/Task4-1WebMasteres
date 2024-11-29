@@ -1,0 +1,61 @@
+footer{
+    background-color: #000000;
+    padding: 40px 0;
+    color: #fff;
+}
+footer h5{
+    font-size: 24px;
+}
+footer h6{
+    font-size: 20px;
+}
+footer p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.537);
+}
+footer form{
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+footer form input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+footer form input[type="button"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+}
+.application{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.application img{
+    height: 100%;
+    width:100%;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.download img{
+    height: 50px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
